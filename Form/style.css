@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 50vw;
+    position: relative;
+    top: 3vh;
+    height: 95vh;
+    margin: auto;
+    border: 2px solid black;
+}
+
+#heading{
+    font-weight: 900;
+    font-family: sans-serif;
+    border: 5px solid black;
+    width: 99%;
+    top: .3vh;
+    position: relative;
+    left: 5px;
+    height: 10%;
+    padding: 1vw;
+    padding-left :18vw;
+    text-align:"center";
+}
+
+#content{
+    font-family: sans-serif;
+    display: flex;
+    width: 99%;
+    top: 5px;
+    position: relative;
+    left: 5px;
+    height: 88%;
+    text-align:"center";
+    }
+
+    #info{
+        font-family: sans-serif;
+        border: 5px solid black;
+        width: 30%;
+        height: 100%;
+        margin-top: 4px; 
+    }
+
+    #data{
+        font-family: sans-serif;
+        border: 5px solid black;
+        width: 69%;
+        position: relative;
+        left: 4px;
+        height: 100%;
+        margin-top: 4px;    
+    }
+
+    .ele{
+        font-family: sans-serif;
+        font-weight: 900;
+        font-size: x-large;
+        text-align:center;
+        padding-top: 8px;
+        border: 2px solid black;
+        width: 99%;
+        position: relative;
+        left: 1px;
+        height: 8.5%;
+        margin-top: 4px;   
+    }
+
+    input,textarea,#btn,.gender{
+          font-family: sans-serif;
+        font-weight: 900;
+        font-size: x-large;
+        text-align:center;
+        padding-top: 8px;
+        border: 2px solid black;
+        width: 99%;
+        position: relative;
+        left: 1px;
+        height: 8.5%;
+        margin-top: 4px;   
+    }
+
+    button{
+        font-family: sans-serif;
+        font-weight: 900;
+        font-size: x-large;
+        position: relative;
+        top: 1px;
+    }
+
+    .gender{
+        display: flex;
+    }
