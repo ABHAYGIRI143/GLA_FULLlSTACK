@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#item1,#item2,#item3{
+    width: 20vw;
+    height: 30vh;
+    border: 2px solid black;
+    margin: auto    ;
+}
+
+#item1{
+    background-color:rgba(144, 33, 13, 0.5);
+    position: relative;
+    top: 100px;
+    right: 200px;
+    z-index: 1;
+}
+#item2{
+    background-color: rgba(22, 208, 22, 0.5);
+    position: relative;
+    bottom: 90px;
+    z-index: -1;
+}
+#item3{
+    background-color: white;
+    position: relative;
+    bottom: 250px;
+    right: 100px;
+    z-index: -2;
+}
